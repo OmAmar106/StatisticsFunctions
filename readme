@@ -1,5 +1,7 @@
 --------------------------------------------Statistics-Functions-Solver-------------------------------------------------
 
+The main  .py file is inside the Statistics Question Solver folder.
+
 I made this project to make it easier for me to calculate very lengthy statistics problem given to me in my college.
 
 This program consists of 14 functions that would help you in questions related to statistics. It has been made completely only using 
