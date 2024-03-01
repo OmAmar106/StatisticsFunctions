@@ -1,3 +1,53 @@
-This is a Statistics Question Solver made using python <br>
-and can solve quite complex statistics question <br>
-It uses excel to make tables and has an image contatining value of Standard Normal Probablity
+-----------------------------------------------------Statistics-Functions-Solver------------------------------------------------------
+
+I made this project to make it easier for me to calculate very lengthy statistics problem given to me in my college.
+
+This program consists of 14 functions that would help you in questions related to statistics. It has been made completely only using 
+Python.
+
+You can directly import a xlsx file in case there is a table stored in that file format and you can directly perform applications on 
+the table.
+
+The program will need to be customized based on how you want to use it.
+
+Functions that have been made in the Program:
+
+1. Table Maker:
+This creates a table in a xlsx file format that can be used to then perform operations on that require a table.
+
+2. Table Reader:
+In case you already have a table, you can use this function.
+
+3. Mean:
+Takes a table as input and reads the table followed by printing the mean of the table.
+
+4. Linear Percentile:
+Prints the position you would be at if you have the percentile and the sample size.
+
+5. Table Percentile:
+Gives the percentile directly from the table.
+
+6. Sample Variance:
+Gives the variance after taking input as a table.
+
+7. Sample Standard Deviation:
+Uses the sample variance function and returns its root.
+
+8. not updated yet
+
+9. Expected Value:
+Gives the expected in a table, which is quite similar to the mean function.
+
+10. Variance:
+Gives the variance with a table as input.
+
+11. Binomial Random Variable:
+Calculates the binomial random variable,Expected Value and Variance
+
+12. Standard Normal Probablity:
+Uses an image in the same directory as the .py file to find the standardized normal probablity(as it has predefined values).
+
+13. Standard Normal Probablity using cetral limit theorem:
+Does the same thing , but using central limit theorem.
+
+14. not updated yet
