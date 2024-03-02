@@ -199,36 +199,39 @@ print("11. Binomial Random Variable")
 print("12. Standard Normal Probablity")
 print("13. Standard Normal Probablity using Central limit theorem")
 print("14. Standard Deviaiton Natural")
-check = int(input("Enter number from 1 to 14 : "))
-if check == 1 :
-    TableMaker()
-elif check == 2:
-    Mean()
-elif check == 3:
-    LinearPercentile()
-elif check == 4:
-    TablePercentile()
-elif check == 5:
-    SampleVariance()
-elif check == 6:
-    SampleStandardDeviation()
-elif check == 7:
-    SampleCorrelationCoeffecient()
-elif check == 8:
-    ExpectedValue()
-elif check == 9:
-    Variance()
-elif check == 10:
-    StandardDeviation()
-elif check == 11:
-    BinomialRandomVariable()
-elif check == 12:
-    StandardNormalProbablities()
-elif check == 13:
-    StandardNormalProbablityCLT()
-else:
-    StandardDeviationNat()
-    
+print("15. EXIT")
+while True:
+    check = int(input("Enter number from 1 to 15 : "))
+    if check == 1 :
+        TableMaker()
+    elif check == 2:
+        Mean()
+    elif check == 3:
+        LinearPercentile()
+    elif check == 4:
+        TablePercentile()
+    elif check == 5:
+        SampleVariance()
+    elif check == 6:
+        SampleStandardDeviation()
+    elif check == 7:
+        SampleCorrelationCoeffecient()
+    elif check == 8:
+        ExpectedValue()
+    elif check == 9:
+        Variance()
+    elif check == 10:
+        StandardDeviation()
+    elif check == 11:
+        BinomialRandomVariable()
+    elif check == 12:
+        StandardNormalProbablities()
+    elif check == 13:
+        StandardNormalProbablityCLT()
+    elif check == 14:
+        StandardDeviationNat()
+    else: 
+        break
     
     
     
