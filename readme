@@ -1,55 +1,75 @@
---------------------------------------------Statistics-Functions-Solver-------------------------------------------------
+# Statistics Functions Solver
 
-The main  .py file is inside the Statistics Question Solver folder.
+The **Statistics Functions Solver** is a Python project designed to simplify the process of solving complex statistics problems. It is particularly useful for college-level statistics assignments and calculations.
 
-I made this project to make it easier for me to calculate very lengthy statistics problem given to me in my college.
+The main Python file is located inside the `Statistics Question Solver` folder.
 
-This program consists of 14 functions that would help you in questions related to statistics. It has been made completely only using 
-Python.
+## Features
 
-You can directly import a xlsx file in case there is a table stored in that file format and you can directly perform applications on 
-the table.
+The program includes a variety of functions to perform statistical calculations and operations on data. It supports importing data from `.xlsx` files and directly performing computations on the data.
 
-The program will need to be customized based on how you want to use it.
+## Functions
 
-Functions that have been made in the Program:
+1. **Table Maker**
+   - Creates a table in `.xlsx` file format for further operations.
+   
+2. **Table Reader**
+   - Reads an existing table from an `.xlsx` file for analysis.
+   
+3. **Mean**
+   - Computes and prints the mean of the data in a table.
+   
+4. **Linear Percentile**
+   - Calculates the position corresponding to a given percentile and sample size.
+   
+5. **Table Percentile**
+   - Calculates the percentile directly from the table data.
+   
+6. **Sample Variance**
+   - Computes the variance of the data in a table.
+   
+7. **Sample Standard Deviation**
+   - Computes the standard deviation by taking the square root of the sample variance.
+   
+8. **(Not Updated Yet)**
+   
+9. **Expected Value**
+   - Computes the expected value from the table data, similar to the mean function.
+   
+10. **Variance**
+    - Computes the variance from the table data.
+    
+11. **Binomial Random Variable**
+    - Calculates the binomial random variable, expected value, and variance.
+    
+12. **Standard Normal Probability**
+    - Determines the standardized normal probability using an image with predefined values located in the same directory as the `.py` file.
+    
+13. **Standard Normal Probability using Central Limit Theorem**
+    - Calculates the standardized normal probability using the Central Limit Theorem.
+    
+14. **(Not Updated Yet)**
 
-1. Table Maker:
-This creates a table in a xlsx file format that can be used to then perform operations on that require a table.
+## Usage
 
-2. Table Reader:
-In case you already have a table, you can use this function.
+1. **Table Creation and Reading**
+   - Use the **Table Maker** function to create a table if you don’t have one.
+   - Use the **Table Reader** function to import and read data from an existing `.xlsx` file.
 
-3. Mean:
-Takes a table as input and reads the table followed by printing the mean of the table.
+2. **Statistical Calculations**
+   - Call the relevant function (e.g., **Mean**, **Variance**, **Sample Standard Deviation**) to perform statistical operations on the imported table data.
 
-4. Linear Percentile:
-Prints the position you would be at if you have the percentile and the sample size.
+3. **Special Calculations**
+   - For probability and distribution-related functions, ensure the required images or data files are available in the same directory as the `.py` file.
 
-5. Table Percentile:
-Gives the percentile directly from the table.
+## Customization
 
-6. Sample Variance:
-Gives the variance after taking input as a table.
+The program may require customization to suit specific use cases or formats. Modify the code as needed to adapt to different data structures or additional functionality.
 
-7. Sample Standard Deviation:
-Uses the sample variance function and returns its root.
+## Installation
 
-8. not updated yet
+Ensure you have Python installed. You may also need to install additional packages such as `openpyxl` for handling `.xlsx` files.
 
-9. Expected Value:
-Gives the expected in a table, which is quite similar to the mean function.
-
-10. Variance:
-Gives the variance with a table as input.
-
-11. Binomial Random Variable:
-Calculates the binomial random variable,Expected Value and Variance
-
-12. Standard Normal Probablity:
-Uses an image in the same directory as the .py file to find the standardized normal probablity(as it has predefined values).
-
-13. Standard Normal Probablity using cetral limit theorem:
-Does the same thing , but using central limit theorem.
-
-14. not updated yet
+To install required packages, you can use:
+```bash
+pip install openpyxl
